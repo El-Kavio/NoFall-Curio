@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:shulker_shell"
+        },
+        {
+            "item": "minecraft:feather"
+        },
+        {
+            "item": "minecraft:chorus_flower"
+        },
+        {
+            "item": "minecraft:feather"
+        },
+        {
+            "item": "minecraft:shield"
+        },
+        {
+            "item": "minecraft:feather"
+        },
+        {
+            "item": "minecraft:chorus_flower"
+        },
+        {
+            "item": "minecraft:feather"
+        },
+        {
+            "item": "minecraft:shulker_shell"
+        }
+    ],
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}
