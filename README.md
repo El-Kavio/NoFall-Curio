@@ -5,6 +5,7 @@
 ---
 
 **NoFall Curio** is a **datapack** that adds a craftable item that **negates fall damage**!
+> Works while the item is in the inventory.
 
 ## Craft
 
