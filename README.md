@@ -1,6 +1,6 @@
 # NoFall Curio
 
- <img src="https://github.com/El-Kavio/NoFall-Curio/assets/140896938/296a3595-1af7-4744-a6a6-e258cfa6af38" alt="NoFall Curio banner" width="60%" height="60%">
+ <img src="https://github.com/El-Kavio/NoFall-Curio/assets/140896938/a2962912-b063-47df-9927-27ad81ecd332" alt="NoFall Curio banner" width="60%" height="60%">
 
 ---
 
