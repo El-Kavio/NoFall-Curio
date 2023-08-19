@@ -1,0 +1,6 @@
+execute as @a unless entity @s[scores={InInv_NFC=0..}] run scoreboard players add @a InInv_NFC 0
+
+execute as @a if entity @s[scores={InInv_NFC=0},nbt={Inventory:[{id:"minecraft:feather",tag:{display:{Lore:['[{"text":"curio","italic":true,"color":"gold"}]'],Name:'[{"text":"[","bold":true,"color":"gray"},{"text":"NoFall","bold":true,"color":"white"},{"text":"]","bold":true,"color":"gray"}]'}}}]}] run effect give @s jump_boost infinite 255 true
+execute as @a if entity @s[scores={InInv_NFC=0}] run scoreboard players set @s InInv_NFC 1
+execute as @a if entity @s[scores={InInv_NFC=1},nbt=!{Inventory:[{id:"minecraft:feather",tag:{display:{Lore:['[{"text":"curio","italic":true,"color":"gold"}]'],Name:'[{"text":"[","bold":true,"color":"gray"},{"text":"NoFall","bold":true,"color":"white"},{"text":"]","bold":true,"color":"gray"}]'}}}]}] run effect clear @s jump_boost
+execute as @a if entity @s[scores={InInv_NFC=1},nbt=!{Inventory:[{id:"minecraft:feather",tag:{display:{Lore:['[{"text":"curio","italic":true,"color":"gold"}]'],Name:'[{"text":"[","bold":true,"color":"gray"},{"text":"NoFall","bold":true,"color":"white"},{"text":"]","bold":true,"color":"gray"}]'}}}]}] run scoreboard players set @s InInv_NFC 0
